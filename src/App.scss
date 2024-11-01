@@ -1,0 +1,39 @@
+// src/styles.scss
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+  
+    .main-content {
+      flex-grow: 1;
+      background-image: url('../public/images.jfif'); // Background image
+      background-size: cover;
+      background-position: center;
+      height: 70vh;
+    }
+  
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+  
+      div {
+        width: 30%;
+  
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+  

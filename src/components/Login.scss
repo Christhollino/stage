@@ -1,0 +1,47 @@
+// src/components/Login.scss
+
+.login {
+    padding: 20px;
+    background-color: #e9ecef; /* Couleur de fond */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    h2 {
+      color: #343a40; /* Couleur du titre */
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      div {
+        margin-bottom: 15px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+          color: #495057; /* Couleur du label */
+        }
+  
+        input {
+          padding: 10px;
+          border: 1px solid #ced4da; /* Bordure de l'input */
+          border-radius: 4px;
+        }
+      }
+  
+      button {
+        background-color: #007bff; /* Couleur du bouton */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #0056b3; /* Couleur de survol */
+        }
+      }
+    }
+  }
+  

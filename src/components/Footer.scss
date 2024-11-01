@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between; /* Espace entre les colonnes */
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Couleur de fond du footer */
+    border-top: 1px solid #ccc;
+  
+    .footer-item {
+      flex: 1; /* Prend une part égale de l'espace */
+      padding: 10px;
+  
+      h3 {
+        color: #343a40; /* Couleur du titre */
+      }
+  
+      p {
+        color: #6c757d; /* Couleur de la description */
+      }
+    }
+  }
+  
